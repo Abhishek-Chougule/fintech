@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include fintech *.css
+recursive-include fintech *.csv
+recursive-include fintech *.html
+recursive-include fintech *.ico
+recursive-include fintech *.js
+recursive-include fintech *.json
+recursive-include fintech *.md
+recursive-include fintech *.png
+recursive-include fintech *.py
+recursive-include fintech *.svg
+recursive-include fintech *.txt
+recursive-exclude fintech *.pyc
